@@ -32,7 +32,17 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.connectwallet {
+  align-items: flex-start;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  right: 20px;
+  top: 11px;
 }
